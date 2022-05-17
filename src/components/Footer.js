@@ -13,17 +13,16 @@ function Footer() {
                     </Row> */}
                     <Row style={{ paddingTop: "30px", paddingBottom: "20px", color: "white", marginLeft: '10px', marginRight: '10px' }}>
                         <Col xs="12" md="12" lg="2" style={{ paddingLeft: "20px", display: "flex", alignItems: "center", justifyContent: "center", paddingBottom: "30px" }}>
-                            <img src="/logo_dag2.png" width="127px" alt="logo DAG2"></img>
+                            <img src="/Logo/Logo-K2S.png" width="127px" alt="logo DAG2"></img>
                         </Col>
                         <Col xs="12" md="8" lg="6" style={{ paddingLeft: "20px" }}>
                             <Stack>
-                                <div><b>PT. DWIDAYA AMADEO GEMINTANG / DAG</b></div>
+                                <div><b>PT. KENCANA DUA SINERGI / K2S</b></div>
                                 <div>Taman Tekno BSD Sektor XI Blok J-2 No. 2</div>
                                 <div>Setu, BSD City Serpong</div>
                                 <div>Kota Tangerang Selatan 15314, Indonesia</div>
                                 <div>Telephone   : (62-21) 758-741-94,</div>
                                 <div>Facsimile   : (62-21) 758-805-19</div>
-                                <div>Email       : info@dwidaya-ag.com</div>
                                 <br></br>
                             </Stack>
                         </Col>
@@ -33,8 +32,8 @@ function Footer() {
                                 <a href="about-us" style={{ color: "white", textDecoration: "none" }}>
                                     <div>Corporate Information</div>
                                 </a>
-                                <a href="solution" style={{ color: "white", textDecoration: "none" }}>
-                                    <div>Solution</div>
+                                <a href="our-project" style={{ color: "white", textDecoration: "none" }}>
+                                    <div>Our Project</div>
                                 </a>
                                 <a href="contact-us" style={{ color: "white", textDecoration: "none" }}>
                                     <div>Contact Us</div>

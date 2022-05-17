@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Row, Col, Button, Container } from 'react-bootstrap';
 import { FaPhoneAlt } from "react-icons/fa";
-import CardPortofolio from '../../components/CardPortofolio';
 
 function HomeScreen() {
     return (
@@ -44,7 +43,7 @@ function HomeScreen() {
                         </a>
                     </Col>
                     <Col md={{ span: '7', order: 'last' }} xs={{ order: 'first' }}>
-                        <img src="/gambarDashboard2.png" alt="Gambar bagus"
+                        <img src="Others/gambarDashboard2.1.png" alt="Gambar bagus"
                             style={{
                                 maxWidth: "100%",
                                 maxHeight: "100%",
@@ -64,9 +63,9 @@ function HomeScreen() {
                     </Col>
                     <Col lg="6">
                         <h1 style={{ marginTop: '75px', color: "#25344E", textAlign: "right" }}>
-                            Our Important Role as Telecomunication Provider
+                            Our Important Role as Telecommunication Provider
                         </h1>
-                        <a href="solution" style={{ color: "white", textDecoration: "none" }}>
+                        <a href="our-project" style={{ color: "white", textDecoration: "none" }}>
                             <Button style={{
                                 float: "right",
                                 backgroundColor: '#1B8F8F',
@@ -74,6 +73,7 @@ function HomeScreen() {
                                 paddingTop: '10px',
                                 paddingBottom: '10px',
                                 width: "30%",
+
                                 borderRadius: "20px",
                                 borderColor: "transparent",
                             }}>
@@ -91,7 +91,7 @@ function HomeScreen() {
                 </Row>
             </Container>
             <Container>
-                <Row className="text-center" style={{ color: "#25344E", paddingTop: "20px", paddingBottom: "20px" }}>
+                {/* <Row className="text-center" style={{ color: "#25344E", paddingTop: "20px", paddingBottom: "20px" }}>
                     <h1>
                         Portofolio
                     </h1>
@@ -102,10 +102,10 @@ function HomeScreen() {
                         <CardPortofolio imageSource="/Logo/logo-GN7.png" portofolioName="PT. Gihon Nusantara Tujuh" />
                         <CardPortofolio imageSource="/Logo/logo-WIN.png" portofolioName="PT. Wahana Infrastruktur Nusantara" />
                         <CardPortofolio imageSource="/Logo/logo-K2S.png" portofolioName="PT. Kencana Dua Sinergi" />
-                        {/* <CardPortofolio imageSource="/Logo/logo-GMC.png" portofolioName="GMC" /> */}
+                        {/* <CardPortofolio imageSource="/Logo/logo-GMC.png" portofolioName="GMC" /> *
                     </Row>
-                </Container>
-                <Row className="text-center" style={{ color: "#25344E", paddingTop: "40px", paddingBottom: "20px" }}>
+                </Container> */}
+                <Row className="text-center" style={{ color: "#25344E", paddingTop: "60px", paddingBottom: "20px" }}>
                     <h1>
                         Want to Know More About Us ?
                     </h1>

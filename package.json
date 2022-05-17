@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "@react-navigation/native-stack": "^6.2.5",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -15,6 +18,7 @@
     "react-native-web": "^0.17.5",
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
+    "react-table": "^7.7.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

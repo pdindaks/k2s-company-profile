@@ -15,12 +15,13 @@ function CarouselSolution() {
                 <img
                     style={{ objectFit: "cover", height:"600px", margin: "auto" }}
                     className="d-block"
-                    src="/Carousel-PLTS.jpg"
+                    src="/carousel.1.png"
                     alt="First slide"
                 />
                 <Carousel.Caption style={{color: "#FFFFFF", backgroundColor: "#008181EE"}}>
-                    <h3>Solar Panel</h3>
-                    <p>Energi Berkelanjutan dengan pasokan tak terbatas</p>
+                    <h3>PROYEK TOWER POWER BAKTI-KOMINFO (450 Watt)</h3>
+                    <p><b>Otonomi 72 Jam</b></p>
+                    <p>PV Panel 440 Wp sebanyak 14 Modul dan Baterai Lithium Li-Ion 48V 52AH sebanyak 16 unit</p>
                 </Carousel.Caption>
             </Carousel.Item>
             {/* <Carousel.Item>
@@ -39,18 +40,29 @@ function CarouselSolution() {
                 <img
                     style={{ objectFit: "cover", height:"600px", margin: "auto" }}
                     className="d-block"
-                    src="/Carousel-Fiber-Optic.png"
+                    src="/carousel.2.png"
                     alt="Second slide"
                 />
+                <Carousel.Caption style={{color: "#FFFFFF", backgroundColor: "#008181EE"}}>
+                    <h3>PROYEK XL NON 3T - KALIMANTAN (450Watt)</h3>
+                    <p><b>Otonomi 48 Jam</b></p>
+                    <p>PV Panel 440 Wp sebanyak 10 Modul dan Baterai Lithium Li-Ion 48V 52 AH sebanyak 8 Unit</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    style={{ objectFit: "cover", height:"600px", margin: "auto" }}
+                    className="d-block"
+                    src="/carousel.3.png"
+                    alt="Third slide"
+                />
                 <Carousel.Caption style={{color: "#FFFFFF", backgroundColor :"#008181EE"}}>
-                    <h3>Fiber Optic</h3>
-                    <p>
-                        Teknologi transmisi sinyal cahaya yang stabil dan sangat cepat.
-                    </p>
+                    <h3>PROYEK MOCK UP XL-BALARAJA (1000 Watt)</h3>
+                    <p><b>Otonomi 48 Jam</b></p>
+                    <p>PV Panel 330 Wp sebanyak 24 Modul dan Baterai Lithium LiFePO4 sebanyak 12 Unit</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
     );
 }
-
 export default CarouselSolution;

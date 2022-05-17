@@ -21,13 +21,16 @@ function ContactUs() {
                         <Stack>
                             <h1>Contact US</h1>
                             <hr />
-                            <div><b>PT. DWIDAYA AMADEO GEMINTANG / DAG</b></div>
-                            <div>Taman Tekno BSD Sektor XI Blok J-2 No. 2</div>
+                            <div><b>PT. Kencana Dua Sinergi / K2S</b></div>
+                            <div>Taman Tekno BSD Sektor XI Blok J-2 No. 1</div>
                             <div>Setu, BSD City Serpong</div>
                             <div>Kota Tangerang Selatan 15314, Indonesia</div>
-                            <div>Telephone   : (62-21) 758-741-94,</div>
-                            <div>Facsimile   : (62-21) 758-805-19</div>
-                            <div>Email       : info@dwidaya-ag.com</div>
+                            <div>Contact Person   : <b>Klaudia Jeanette </b></div>
+                            <div style={{marginLeft:"119px"}}>(+628) 990-015-275</div>
+                            <div style={{marginLeft:"119px"}}>klaudia@k2sinergi.com</div>
+                            <div style={{marginLeft:"119px"}}><b>Yanto Huang</b></div>
+                            <div style={{marginLeft:"119px"}}>(+628) 970-049-065</div>
+                            <div style={{marginLeft:"119px"}}>yanto@k2sinergi.com</div>
                             <br></br>
                         </Stack>
                     </Col>

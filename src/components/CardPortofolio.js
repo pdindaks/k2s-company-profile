@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 
 function CardPortofolio(props) {
-
     return (
         <Col style={{ color: "#25344E" }}>
             <Row>

@@ -1,13 +1,14 @@
 import { Row, Col, Container } from 'react-bootstrap';
 import { Text } from 'react-native';
 import CardPortofolio2 from '../../components/CardPortofolio2';
+import CardStrategy from '../../components/CardStrategy';
 
 function AboutUs() {
   return (
     <div>
       <Container fluid="xxl">
         <div style={{
-          backgroundImage: "url('/city1.jpg')",
+          backgroundImage: "url('/Others/bckgrndAboutUs.jpg')",
           backgroundSize: "cover",
           backgroundBlendMode: "overlay",
           height: "60vh",
@@ -30,46 +31,76 @@ function AboutUs() {
               marginLeft: "auto",
               marginRight: "auto",
             }}>
-              <h3>
+              <h1>
                 About Us
-              </h3>
+              </h1>
               <br />
-                <h5>
-                  Didirikan pada 29 Juli 2008 di Jakarta
-                  dengan bisnis utama berupa investasi dan
-                  manajemen aset dalam bidang <br/>Ekuitas, Infrastruktur,
+                <h5 style={{backgroundColor: 'white',color: "black",}}>
+                  Didirikan pada 15 November 2019 di Tangerang Selatan
+                  dengan bisnis utama berupa investasi aset dalam bidang
+                  <br/>Ekuitas, Infrastruktur,
                   Telekomunikasi, Power Solution, PLTS, Fiber Optik, dll.
                 </h5>
             </div>
           </Row>
         </div>
       </Container>
-      <Container style={{ paddingBottom: "30px", color: "#25344E" }}>
-        <Row className="text-center" style={{ color: "#25344E", paddingTop: "20px", paddingBottom: "20px" }}>
+      <Container style={{ paddingBottom: "30px", color: "#25344E", backgroundColor:"#DCDCDC", }}>
+        <Row className="text-center" style={{ color: "#25344E", marginTop: "50px", paddingTop: "20px", paddingBottom: "20px" }}>
           <h1>
-            Portofolio Investasi
+            Investasi Sektor Utama
           </h1>
         </Row>
+        <br></br>
         <Row className="center">
           <Col sm="12" md="6">
-            <CardPortofolio2 imageSource="/Logo/Logo-K2S.png" companyName="PT. Kencana Dua Sinergi" desc="Platform Webstite, Mobile Apps Project Management, Asset Management, Managed Service, LMS, dan E-learning." />
-            <CardPortofolio2 imageSource="/Logo/Logo-GN7.png" companyName="PT. Gihon Nusantara Tujuh" desc="Power Solution, PLTS, dan Baterai." />
+            <CardPortofolio2 imageSource="/Logo/Logo-gihon.jpg" companyName="PT Gihon Telekomunikasi Indonesia Tbk" desc="Pembangunan Menara Telekomunikasi, SITAC, CME, dan Operational Maintenance" />
+            <br></br>
+            <CardPortofolio2 imageSource="/Logo/Logo_DAG.png" companyName="PT Dwidaya Amadeo Gemintang" desc="Data Center, Properti, dan Ekuitas" />
           </Col>
           <Col sm="12" md="6">
-            <CardPortofolio2 imageSource="/Logo/Logo-WIN.png" companyName="PT. Wahana Infrastruktur Nusantara" desc="Infrastruktur dan konstruksi." />
-            <CardPortofolio2 imageSource="/Logo/Logo_ACN.jpg" companyName="PT. Anugrah Creative Nusantara" desc="Koperasi, BPR." />
+            <CardPortofolio2 imageSource="/Logo/Logo-WIN.png" companyName="PT Wahana Infrastruktur Nusantara" desc="EPC (Engineering Procurement Construction) dan Power Solution untuk EBT (Energi Baru Terbarukan) - PLTS" />
+            <br></br><br></br>
+            <CardPortofolio2 imageSource="/Logo/logo-glj.png" companyName="PT Gihon Lima Jaya" desc="Fiber Optik - FTTH, 5G VPN dan In Building Solution (IBS)" />
           </Col>
         </Row>
       </Container>
-      <Container style={{ paddingBottom: "50px", color: "#25344E" }}>
+      <br></br>
+      <Container style={{paddingBottom: "30px", color: "#25344E", backgroundColor:"#F8F8FF"}}>
+        <Row className="text-center" style={{color: "#111240", marginTop: "50px", paddingTop: "20px",paddingBottom: "20px", textAlign: 'center'}}>
+          <Row>
+            <h1>Strategi Bisnis</h1>
+          </Row>
+        </Row>
+        <p style={{marginLeft: "50px"}}>Menawarkan investasi yang mendukung semua aspek secara:</p>
+        <Row className="center" style={{marginLeft: "20px"}}>
+          <Col sm="12" md="4">
+            <CardStrategy imageSource="/Strategi-Bisnis/mandiri.jpg" desc="Independent/Mandiri"></CardStrategy>
+          </Col>
+          <Col sm="12" md="4">
+            <CardStrategy imageSource="/Strategi-Bisnis/integritas.jpg" desc="Integrity/Integritas"></CardStrategy>
+          </Col>
+          <Col sm="12" md="4">
+            <CardStrategy imageSource="/Strategi-Bisnis/inovasi.jpg" desc="Inovation/Inovasi"></CardStrategy>
+          </Col>
+        </Row>
+      </Container>
+      <br></br><br></br><br></br>
+      <Container style={{ 
+          paddingTop: "20px",
+          paddingBottom: "20px", 
+          color: "#25344E", 
+          backgroundColor:"#FDF5E6",
+          marginBottom:"30px", }}>
         <Row className="text-center center">
-          <Col sm="12" md="6" style={{ paddingBottom: "50px" }}>
+          <Col sm="12" md="6" style={{ paddingBottom: "50px"}}>
             <Row>
               <h1>Vision</h1>
             </Row>
             <Row>
-              <Text>Menjadi perusahaan manajemen aset dan investasi terbaik dan berkarakter
-                kuat di Indonesia untuk menciptakan nilai bagi bangsa.
+              <Text style={{fontSize: 20}}>Menjadi 
+                <Text style={{fontWeight: "bold", fontSize: 20}}> manajemen pengelola investasi aset terbaik di Indonesia</Text>
+                <Text style={{fontSize: 20}}> serta mendukung program pemerintah untuk pemerataan pembangunan.</Text>
               </Text>
             </Row>
           </Col>
@@ -78,14 +109,14 @@ function AboutUs() {
               <h1>Mission</h1>
             </Row>
             <Row>
-              <Text>Menawarkan dan menyediakan jasa layanan infrastruktur serta investasi
-                secara profesional, transparan, berkomitmen dan bercitra baik.
+              <Text style={{fontSize: 20}}>Melayani manajemen investasi aset baik perusahaan maupun individu dengan berkomitmen 
+                <Text style={{fontSize:20, fontWeight: "bold"}}> menghargai dan melindungi kepentingan mitra atau pelanggan.</Text>
               </Text>
             </Row>
           </Col>
         </Row>
       </Container>
-      <Container style={{ paddingBottom: "30px", color: "#25344E" }}>
+      {/* <Container style={{ paddingBottom: "30px", color: "#25344E" }}>
         <Row className="text-center center">
           <h1>
             Our Journey
@@ -100,7 +131,7 @@ function AboutUs() {
           <Col nd="2">
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </div>
   );
 }
