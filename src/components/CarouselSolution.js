@@ -15,7 +15,7 @@ function CarouselSolution() {
                 <img
                     style={{ objectFit: "cover", height:"600px", margin: "auto" }}
                     className="d-block"
-                    src="/carousel.1.png"
+                    src="/Kominfo.jpg"
                     alt="First slide"
                 />
                 <Carousel.Caption style={{color: "#FFFFFF", backgroundColor: "#008181EE"}}>
@@ -24,23 +24,11 @@ function CarouselSolution() {
                     <p>PV Panel 440 Wp sebanyak 14 Modul dan Baterai Lithium Li-Ion 48V 52AH sebanyak 16 unit</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            {/* <Carousel.Item>
-                <img
-                    style={{ objectFit: "cover", height: "550px", margin: "auto" }}
-                    className="d-block w-100"
-                    src="/Carousel2.jpeg"
-                    alt="Second slide"
-                />
-                <Carousel.Caption>
-                    <h3>Smart City</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item> */}
             <Carousel.Item>
                 <img
                     style={{ objectFit: "cover", height:"600px", margin: "auto" }}
                     className="d-block"
-                    src="/carousel.2.png"
+                    src="/N3T.jpg"
                     alt="Second slide"
                 />
                 <Carousel.Caption style={{color: "#FFFFFF", backgroundColor: "#008181EE"}}>
@@ -53,7 +41,7 @@ function CarouselSolution() {
                 <img
                     style={{ objectFit: "cover", height:"600px", margin: "auto" }}
                     className="d-block"
-                    src="/carousel.3.png"
+                    src="/Balaraja.jpeg"
                     alt="Third slide"
                 />
                 <Carousel.Caption style={{color: "#FFFFFF", backgroundColor :"#008181EE"}}>
