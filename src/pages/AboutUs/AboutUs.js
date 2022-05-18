@@ -86,12 +86,7 @@ function AboutUs() {
         </Row>
       </Container>
       <br></br><br></br><br></br>
-      <Container style={{ 
-          paddingTop: "20px",
-          paddingBottom: "20px", 
-          color: "#25344E", 
-          backgroundColor:"#FDF5E6",
-          marginBottom:"30px", }}>
+      <Container style={{ paddingTop: "20px",paddingBottom: "20px", color: "#25344E", backgroundColor:"#FDF5E6",marginBottom:"30px", }}>
         <Row className="text-center center">
           <Col sm="12" md="6" style={{ paddingBottom: "50px"}}>
             <Row>
